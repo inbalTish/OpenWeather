@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "DetailsViewController.h"
+#import "Location.h"
+#import "NetworkingManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
+
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *userLocationActivityIndicator;
+@property (strong, nonatomic) IBOutlet UILabel *alertLabel;
+
+
+- (IBAction)moveToDetailsScreen:(id)sender;
+
+
+
+
 
 @end

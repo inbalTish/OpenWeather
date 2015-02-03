@@ -21,6 +21,28 @@
 		89C8E41C1A63FD9B00620CCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C8E3FE1A63FD9B00620CCF /* UIKit.framework */; };
 		89C8E4241A63FD9B00620CCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89C8E4221A63FD9B00620CCF /* InfoPlist.strings */; };
 		89C8E4261A63FD9B00620CCF /* OpenWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4251A63FD9B00620CCF /* OpenWeatherTests.m */; };
+		89C8E4301A64003200620CCF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C8E42F1A64003200620CCF /* CoreLocation.framework */; };
+		89C8E4361A64044300620CCF /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4351A64044300620CCF /* Location.m */; };
+		89C8E43C1A64057700620CCF /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E43B1A64057700620CCF /* Weather.m */; };
+		89C8E43F1A6406F800620CCF /* Conditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E43E1A6406F800620CCF /* Conditions.m */; };
+		89C8E4421A64079300620CCF /* Wind.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4411A64079300620CCF /* Wind.m */; };
+		89C8E4451A64081B00620CCF /* Rain.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4441A64081B00620CCF /* Rain.m */; };
+		89C8E4481A64088600620CCF /* Clouds.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4471A64088600620CCF /* Clouds.m */; };
+		89C8E44C1A640F1400620CCF /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E44B1A640F1400620CCF /* NetworkingManager.m */; };
+		89C8E44F1A64183B00620CCF /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E44E1A64183B00620CCF /* DetailsViewController.m */; };
+		89C8E5071A64222F00620CCF /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4EF1A64222F00620CCF /* NSObject+SBJson.m */; };
+		89C8E5081A64222F00620CCF /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4F21A64222F00620CCF /* SBJsonParser.m */; };
+		89C8E5091A64222F00620CCF /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4F41A64222F00620CCF /* SBJsonStreamParser.m */; };
+		89C8E50A1A64222F00620CCF /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4F61A64222F00620CCF /* SBJsonStreamParserAccumulator.m */; };
+		89C8E50B1A64222F00620CCF /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4F81A64222F00620CCF /* SBJsonStreamParserAdapter.m */; };
+		89C8E50C1A64222F00620CCF /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4FA1A64222F00620CCF /* SBJsonStreamParserState.m */; };
+		89C8E50D1A64222F00620CCF /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4FC1A64222F00620CCF /* SBJsonStreamWriter.m */; };
+		89C8E50E1A64222F00620CCF /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E4FE1A64222F00620CCF /* SBJsonStreamWriterAccumulator.m */; };
+		89C8E50F1A64222F00620CCF /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E5001A64222F00620CCF /* SBJsonStreamWriterState.m */; };
+		89C8E5101A64222F00620CCF /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E5021A64222F00620CCF /* SBJsonTokeniser.m */; };
+		89C8E5111A64222F00620CCF /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E5041A64222F00620CCF /* SBJsonUTF8Stream.m */; };
+		89C8E5121A64222F00620CCF /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E5061A64222F00620CCF /* SBJsonWriter.m */; };
+		E764448F1A6AA351009FA8A0 /* background_sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = E764448E1A6AA351009FA8A0 /* background_sunny.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +75,49 @@
 		89C8E4211A63FD9B00620CCF /* OpenWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		89C8E4231A63FD9B00620CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89C8E4251A63FD9B00620CCF /* OpenWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherTests.m; sourceTree = "<group>"; };
+		89C8E42F1A64003200620CCF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		89C8E4341A64044300620CCF /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		89C8E4351A64044300620CCF /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		89C8E43A1A64057700620CCF /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		89C8E43B1A64057700620CCF /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		89C8E43D1A6406F800620CCF /* Conditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conditions.h; sourceTree = "<group>"; };
+		89C8E43E1A6406F800620CCF /* Conditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conditions.m; sourceTree = "<group>"; };
+		89C8E4401A64079300620CCF /* Wind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wind.h; sourceTree = "<group>"; };
+		89C8E4411A64079300620CCF /* Wind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wind.m; sourceTree = "<group>"; };
+		89C8E4431A64081B00620CCF /* Rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rain.h; sourceTree = "<group>"; };
+		89C8E4441A64081B00620CCF /* Rain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rain.m; sourceTree = "<group>"; };
+		89C8E4461A64088600620CCF /* Clouds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clouds.h; sourceTree = "<group>"; };
+		89C8E4471A64088600620CCF /* Clouds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clouds.m; sourceTree = "<group>"; };
+		89C8E44A1A640F1400620CCF /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
+		89C8E44B1A640F1400620CCF /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
+		89C8E44D1A64183B00620CCF /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		89C8E44E1A64183B00620CCF /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		89C8E4EE1A64222F00620CCF /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		89C8E4EF1A64222F00620CCF /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		89C8E4F01A64222F00620CCF /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		89C8E4F11A64222F00620CCF /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		89C8E4F21A64222F00620CCF /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		89C8E4F31A64222F00620CCF /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		89C8E4F41A64222F00620CCF /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		89C8E4F51A64222F00620CCF /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		89C8E4F61A64222F00620CCF /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		89C8E4F71A64222F00620CCF /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		89C8E4F81A64222F00620CCF /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		89C8E4F91A64222F00620CCF /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		89C8E4FA1A64222F00620CCF /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		89C8E4FB1A64222F00620CCF /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		89C8E4FC1A64222F00620CCF /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		89C8E4FD1A64222F00620CCF /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		89C8E4FE1A64222F00620CCF /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		89C8E4FF1A64222F00620CCF /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		89C8E5001A64222F00620CCF /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		89C8E5011A64222F00620CCF /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		89C8E5021A64222F00620CCF /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		89C8E5031A64222F00620CCF /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		89C8E5041A64222F00620CCF /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		89C8E5051A64222F00620CCF /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		89C8E5061A64222F00620CCF /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E764448E1A6AA351009FA8A0 /* background_sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_sunny.png; path = ../../Work/israelWeather_ios/Assets/backgrounds/background_sunny.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C8E4301A64003200620CCF /* CoreLocation.framework in Frameworks */,
 				89C8E3FD1A63FD9B00620CCF /* CoreGraphics.framework in Frameworks */,
 				89C8E3FF1A63FD9B00620CCF /* UIKit.framework in Frameworks */,
 				89C8E3FB1A63FD9B00620CCF /* Foundation.framework in Frameworks */,
@@ -101,6 +167,7 @@
 		89C8E3F91A63FD9B00620CCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89C8E42F1A64003200620CCF /* CoreLocation.framework */,
 				89C8E3FA1A63FD9B00620CCF /* Foundation.framework */,
 				89C8E3FC1A63FD9B00620CCF /* CoreGraphics.framework */,
 				89C8E3FE1A63FD9B00620CCF /* UIKit.framework */,
@@ -112,11 +179,13 @@
 		89C8E4001A63FD9B00620CCF /* OpenWeather */ = {
 			isa = PBXGroup;
 			children = (
+				E76444901A6B2A77009FA8A0 /* Libraries */,
+				E764448D1A6AA31B009FA8A0 /* Assets */,
+				89C8E4331A6403FE00620CCF /* Controller */,
+				89C8E4321A6403F700620CCF /* View */,
+				89C8E4311A6403E800620CCF /* Model */,
 				89C8E4091A63FD9B00620CCF /* AppDelegate.h */,
 				89C8E40A1A63FD9B00620CCF /* AppDelegate.m */,
-				89C8E40C1A63FD9B00620CCF /* Main.storyboard */,
-				89C8E40F1A63FD9B00620CCF /* ViewController.h */,
-				89C8E4101A63FD9B00620CCF /* ViewController.m */,
 				89C8E4121A63FD9B00620CCF /* Images.xcassets */,
 				89C8E4011A63FD9B00620CCF /* Supporting Files */,
 			);
@@ -150,6 +219,110 @@
 				89C8E4221A63FD9B00620CCF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89C8E4311A6403E800620CCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E4491A640EED00620CCF /* Object classes */,
+				89C8E44A1A640F1400620CCF /* NetworkingManager.h */,
+				89C8E44B1A640F1400620CCF /* NetworkingManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89C8E4321A6403F700620CCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E40C1A63FD9B00620CCF /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		89C8E4331A6403FE00620CCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E40F1A63FD9B00620CCF /* ViewController.h */,
+				89C8E4101A63FD9B00620CCF /* ViewController.m */,
+				89C8E44D1A64183B00620CCF /* DetailsViewController.h */,
+				89C8E44E1A64183B00620CCF /* DetailsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		89C8E4491A640EED00620CCF /* Object classes */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E4341A64044300620CCF /* Location.h */,
+				89C8E4351A64044300620CCF /* Location.m */,
+				89C8E43A1A64057700620CCF /* Weather.h */,
+				89C8E43B1A64057700620CCF /* Weather.m */,
+				89C8E43D1A6406F800620CCF /* Conditions.h */,
+				89C8E43E1A6406F800620CCF /* Conditions.m */,
+				89C8E4401A64079300620CCF /* Wind.h */,
+				89C8E4411A64079300620CCF /* Wind.m */,
+				89C8E4431A64081B00620CCF /* Rain.h */,
+				89C8E4441A64081B00620CCF /* Rain.m */,
+				89C8E4461A64088600620CCF /* Clouds.h */,
+				89C8E4471A64088600620CCF /* Clouds.m */,
+			);
+			name = "Object classes";
+			sourceTree = "<group>";
+		};
+		89C8E4EC1A64221C00620CCF /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E4ED1A64222F00620CCF /* Classes */,
+			);
+			name = SBJson;
+			sourceTree = "<group>";
+		};
+		89C8E4ED1A64222F00620CCF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E4EE1A64222F00620CCF /* NSObject+SBJson.h */,
+				89C8E4EF1A64222F00620CCF /* NSObject+SBJson.m */,
+				89C8E4F01A64222F00620CCF /* SBJson.h */,
+				89C8E4F11A64222F00620CCF /* SBJsonParser.h */,
+				89C8E4F21A64222F00620CCF /* SBJsonParser.m */,
+				89C8E4F31A64222F00620CCF /* SBJsonStreamParser.h */,
+				89C8E4F41A64222F00620CCF /* SBJsonStreamParser.m */,
+				89C8E4F51A64222F00620CCF /* SBJsonStreamParserAccumulator.h */,
+				89C8E4F61A64222F00620CCF /* SBJsonStreamParserAccumulator.m */,
+				89C8E4F71A64222F00620CCF /* SBJsonStreamParserAdapter.h */,
+				89C8E4F81A64222F00620CCF /* SBJsonStreamParserAdapter.m */,
+				89C8E4F91A64222F00620CCF /* SBJsonStreamParserState.h */,
+				89C8E4FA1A64222F00620CCF /* SBJsonStreamParserState.m */,
+				89C8E4FB1A64222F00620CCF /* SBJsonStreamWriter.h */,
+				89C8E4FC1A64222F00620CCF /* SBJsonStreamWriter.m */,
+				89C8E4FD1A64222F00620CCF /* SBJsonStreamWriterAccumulator.h */,
+				89C8E4FE1A64222F00620CCF /* SBJsonStreamWriterAccumulator.m */,
+				89C8E4FF1A64222F00620CCF /* SBJsonStreamWriterState.h */,
+				89C8E5001A64222F00620CCF /* SBJsonStreamWriterState.m */,
+				89C8E5011A64222F00620CCF /* SBJsonTokeniser.h */,
+				89C8E5021A64222F00620CCF /* SBJsonTokeniser.m */,
+				89C8E5031A64222F00620CCF /* SBJsonUTF8Stream.h */,
+				89C8E5041A64222F00620CCF /* SBJsonUTF8Stream.m */,
+				89C8E5051A64222F00620CCF /* SBJsonWriter.h */,
+				89C8E5061A64222F00620CCF /* SBJsonWriter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E764448D1A6AA31B009FA8A0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E764448E1A6AA351009FA8A0 /* background_sunny.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E76444901A6B2A77009FA8A0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				89C8E4EC1A64221C00620CCF /* SBJson */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +404,7 @@
 				89C8E4131A63FD9B00620CCF /* Images.xcassets in Resources */,
 				89C8E4051A63FD9B00620CCF /* InfoPlist.strings in Resources */,
 				89C8E40E1A63FD9B00620CCF /* Main.storyboard in Resources */,
+				E764448F1A6AA351009FA8A0 /* background_sunny.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +424,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C8E4111A63FD9B00620CCF /* ViewController.m in Sources */,
+				89C8E5121A64222F00620CCF /* SBJsonWriter.m in Sources */,
+				89C8E50D1A64222F00620CCF /* SBJsonStreamWriter.m in Sources */,
+				89C8E5101A64222F00620CCF /* SBJsonTokeniser.m in Sources */,
+				89C8E50E1A64222F00620CCF /* SBJsonStreamWriterAccumulator.m in Sources */,
 				89C8E40B1A63FD9B00620CCF /* AppDelegate.m in Sources */,
+				89C8E44F1A64183B00620CCF /* DetailsViewController.m in Sources */,
+				89C8E4481A64088600620CCF /* Clouds.m in Sources */,
+				89C8E50C1A64222F00620CCF /* SBJsonStreamParserState.m in Sources */,
+				89C8E5081A64222F00620CCF /* SBJsonParser.m in Sources */,
+				89C8E50A1A64222F00620CCF /* SBJsonStreamParserAccumulator.m in Sources */,
+				89C8E50F1A64222F00620CCF /* SBJsonStreamWriterState.m in Sources */,
+				89C8E4361A64044300620CCF /* Location.m in Sources */,
+				89C8E4451A64081B00620CCF /* Rain.m in Sources */,
+				89C8E44C1A640F1400620CCF /* NetworkingManager.m in Sources */,
 				89C8E4071A63FD9B00620CCF /* main.m in Sources */,
+				89C8E5111A64222F00620CCF /* SBJsonUTF8Stream.m in Sources */,
+				89C8E4421A64079300620CCF /* Wind.m in Sources */,
+				89C8E43C1A64057700620CCF /* Weather.m in Sources */,
+				89C8E5091A64222F00620CCF /* SBJsonStreamParser.m in Sources */,
+				89C8E5071A64222F00620CCF /* NSObject+SBJson.m in Sources */,
+				89C8E43F1A6406F800620CCF /* Conditions.m in Sources */,
+				89C8E50B1A64222F00620CCF /* SBJsonStreamParserAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +650,7 @@
 				89C8E42B1A63FD9B00620CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C8E42C1A63FD9B00620CCF /* Build configuration list for PBXNativeTarget "OpenWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +659,7 @@
 				89C8E42E1A63FD9B00620CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
